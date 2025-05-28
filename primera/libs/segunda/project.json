@@ -1,0 +1,13 @@
+{
+  "name": "segunda",
+  "$schema": "../../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "primera/libs/segunda/src",
+  "prefix": "lib",
+  "projectType": "library",
+  "tags": [],
+  "targets": {
+    "lint": {
+      "executor": "@nx/eslint:lint"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "rootDir": ".",
+    "sourceMap": true,
+    "declaration": false,
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "importHelpers": true,
+    "target": "es2022",
+    "module": "esnext",
+    "lib": ["es2020", "dom"],
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "baseUrl": ".",
+    "paths": {
+      "@limpio/cuarta": ["libs/cuarta/src/index.ts"],
+      "@limpio/ejemplox": ["ejemplox/src/index.ts"],
+      "@limpio/noangular": ["libs/noangular/src/index.ts"],
+      "@limpio/primera": ["primera/src/index.ts"],
+      "@limpio/segunda": ["primera/libs/segunda/src/index.ts"],
+      "@limpio/tercera": ["tercera/src/index.ts"],
+      "@limpio/ultimoejemplo": ["libs/ultimoejemplo/src/index.ts"]
+    }
+  },
+  "exclude": ["node_modules", "tmp"]
+}

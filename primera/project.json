@@ -1,0 +1,19 @@
+{
+  "name": "primera",
+  "$schema": "../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "primera/src",
+  "prefix": "lib",
+  "projectType": "library",
+  "tags": [],
+  "targets": {
+    "build":{
+      "executor": "@nx/angular:package",
+      "options": {
+        "project": "libs/primera/ng-package.json"
+      }
+    },
+    "lint": {
+      "executor": "@nx/eslint:lint"
+    }
+  }
+}
