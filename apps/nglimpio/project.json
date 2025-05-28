@@ -1,0 +1,20 @@
+{
+  "name": "nglimpio",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "apps/nglimpio/src",
+  "prefix": "lib",
+  "projectType": "application",
+  "tags": [],
+  "targets": {
+    "build":{
+      "executor": "@nx/angular:package",
+      "options": {
+        "project": "apps/nglimpio/ng-package.json"
+      }
+    },
+
+    "lint": {
+      "executor": "@nx/eslint:lint"
+    }
+  }
+}
